@@ -1,9 +1,5 @@
 {
-    "functions": {
-    "api/**/*.py": {
-      "excludeFiles": "public/**"
-    }
-  },
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }],
     "routes": [
         {
             "src": "/(.*)",
